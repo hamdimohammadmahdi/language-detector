@@ -81,7 +81,7 @@ def detect_language(inpt, return_as_code=False):
 
 
 def isArabic(inpt):
-    return detect_language(inpt) == "Arabic"
+    return detect_language(inpt) == "ar"
 
 def isEnglish(inpt):
-    return detect_language(inpt) == "English"
+    return detect_language(inpt) == "en"
